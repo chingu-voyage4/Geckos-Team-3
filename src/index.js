@@ -6,7 +6,5 @@ import './styles/index.css';
 import App from './containers/App';
 import registerServiceWorker from './registerServiceWorker';
 
-firebase.initializeApp(firebaseConnfig);
-
 ReactDOM.render(<App />, document.getElementById('root'));
 registerServiceWorker();
